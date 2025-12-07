@@ -1,0 +1,26 @@
+h1 :hover {
+    background-color:white;
+    color:black;
+    font-size:50px;
+    font-weight:bold;
+    text-align:center;
+
+
+}
+label{
+    background-color:white;
+    color:red;
+    font-size:20px;
+}
+button{
+    
+    background-color:blue;
+    color:white;
+    font-size:20px;
+    border-radius:10px;
+}
+body{
+    background-color:red;
+    
+    
+}
