@@ -4,74 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
-            margin:0px;
-            padding:0px;
-        }
-        .container {
-            display: grid;
-            grid-template-areas:
-                "head head head"
-                "links content content"
-                "footer footer footer";
-            grid-gap: 0px;
-            background-color: white;
-            padding: 0px;
-            margin:0px;
-        }
-        .head {
-            grid-area: head;
-            background-color: white;
-            color: black;
-            text-align: center;
-            padding: 0px 0;
-            border:3px solid blue
-        }
-        .links {
-            grid-area: links;
-            background-color:  blue;
-            color: white;
-            padding: 10px;
-        }
-        .content {
-            grid-area: content;
-            background-color: white;
-            /* padding: 10px;
-             */
-            border:3px solid blue
-        }
-        .footer {
-            grid-area: footer;
-            background-color:white;
-            color:black;
-            text-align: center;
-            padding: 10px 0;
-            border:3px solid blue;
-        }
-        .h1 {
-            font-size: 24px;
-            font-weight: bold;
-        }
+    
 
-    </style>
 </head>
+<style>
+    .container{
+        border:2px solid rgb(76, 216, 186);
+        display:grid;
+        grid-template-columns:50px 50px 50px;
+        grid-template-rows: 50px 50px ;
+        row-gap:10px;
+        column-gap:20px;
+    }
+    .item{
+        display:flex;
+        justify-items: center;
+        text-align: center;
+        border:2px solid black;
+        
+        height:30px;
+        width:30px; 
+    }
+</style> 
 <body>
     <div class="container">
-        <header class="head">
-            <h1 class="h1">MY HEADER</h1>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+</div>
 
-        </header>
-        <span class="links">
-            <a href="#">LINK 1</a><br>
-            <a href="#">LINK 2</a><br>
-            <a href="#">LINK 3</a>
-        </span>
-        <span class="content">
-            <h2>lorem ipsum</h2>
-            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo, ea est inventore quas fugiat odit quasi voluptas quidem sapiente minus ipsam placeat.</div>
-        </span>
-        <footer class="footer">footer</footer>
-    </div> 
+        
+    
+    
 </body>
 </html>
